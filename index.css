@@ -1,0 +1,33 @@
+body
+{
+    background-color:#222E50;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #FCCB06;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+#heading-el
+{
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+div
+{
+    padding-bottom: 10px;
+}
+
+button
+{
+    padding: 10px 30px;
+    background-color: #56c913;
+    font-size: 10px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    font-size: 25px;
+}
