@@ -5,22 +5,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
     <title>Rock Paper Scissor Game</title>
 </head>
 
 <body>
-        <h1 id="heading-el">Rock-Paper-Scissor</h1>
-    <div>
+    <div id="container">
+        <h1 id="heading-el">Rock - Paper - Scissor</h1>
+        <div id="images"> 
+            <img src="rock.jpg" alt="">
+            <img src="paper.jpg" alt="">
+            <img src="scissors.jpg" alt="">
+        </div>
+        <button id="startBtn-el">Start Game</button>
+        <p id="instruct-el">You are playing against computer, 
+            so choose one option among these three</p>
+        <div id="results-info">
+            <p id="user-el"></p>
+            <p id="computer-el"></p>
+            <p id="result-el"></p>
+        </div>
 
-        <p id="user-el">Your choice : </p>
-        <p id="computer-el">Computer choice :</p>
-        <p id="result-el">Result :</p>
-      </div>
-
-        <button id="rock-el" onclick="rock()">Rock</button>
-        <button id="paper-el" onclick="paper()">Paper</button>
-        <button id="scissor-el" onclick="scissor()">Scissor</button>
-  
+        <div id="buttons">
+            <button id="button-el" onclick="rock()">Rock</button>
+            <button id="button-el" onclick="paper()">Paper</button>
+            <button id="button-el" onclick="scissor()">Scissor</button>
+        </div>
+    </div>
 
 
     <script src="index.js"></script>
